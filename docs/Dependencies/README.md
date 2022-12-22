@@ -3,20 +3,15 @@
 **In this document**
 
 -   [Working with a scope package](#working-with-a-scoped-package)
--   [Working with root](#working-with-root)
+-   [Working with root][def]
 
 ## Working with a Scoped package
 
 ### Add
 
 ```sh
-lerna exec --scope @deriv/[Package] -- npm install [Package] --save
-```
-
-For example
-
-```
-lerna exec --scope @deriv/shared -- npm install sax --save
+lerna exec --scope @deriv/[Package] -- npm install [Package] --sa
+$$**
 ```
 
 ### Update
@@ -83,3 +78,6 @@ For example:
 ```sh
 npm uninstall commitizen
 ```
+
+
+[def]: #working-with-root
